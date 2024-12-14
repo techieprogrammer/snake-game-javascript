@@ -1,0 +1,36 @@
+body {
+margin:0px;
+padding:0px;
+}
+
+
+#board {
+/* Board Width & Height */
+width:50%;
+height:50%;
+position:relative;
+background:#222831;
+border:2px solid #E5D9B6;
+margin:5px;
+}
+
+.snake {
+position:absolute;
+vertical-align:middle;
+/* Snake Color */
+background-color:#CDE990;
+border:2px solid #AACB73;
+box-sizing:border-box;
+}
+
+#apple {
+position:absolute;
+/* Apple Color */
+background-color:#ED2B2A;
+border:2px solid #D21312;
+box-sizing:border-box;
+}
+
+.clash {
+background-color:#ffffff;
+}
